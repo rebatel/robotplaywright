@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on darwin)" generated="2025-02-24T16:51:11.347982" rpa="false" schemaversion="5">
+<suite id="s1" name="Serve-Teste-Front" source="/Users/renatobatel/cursos/robotplaywright/RF_browserlibrary/tests/serve-teste-front.robot">
+<test id="s1-t1" name="Login com sucesso Serve Rest front" line="6">
+<kw name="Abrir o navegador" owner="serve-rest-front">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-02-24T16:51:11.417849" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/renatobatel/cursos/robotplaywright/browser/traces/temp/d002b367-7224-476d-a711-c1f2192f9e48"}</msg>
+<msg time="2025-02-24T16:51:11.440100" level="INFO">Starting Browser process /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/index.js using port 57801</msg>
+<msg time="2025-02-24T16:51:11.440473" level="INFO">Node startup parameters: ['node', '/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/index.js', '57801']</msg>
+<msg time="2025-02-24T16:51:13.214010" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/renatobatel/cursos/robotplaywright/browser/traces/temp/d002b367-7224-476d-a711-c1f2192f9e48"}</msg>
+<arg>browser=${BROWSER}</arg>
+<arg>headless=${HEADLESS}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-02-24T16:51:11.417437" elapsed="1.796995"/>
+</kw>
+<kw name="New Context" owner="Browser">
+<msg time="2025-02-24T16:51:13.217232" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "height": 800,
+    "width": 1200
+  }
+}</msg>
+<msg time="2025-02-24T16:51:13.226876" level="INFO">Successfully created context. </msg>
+<msg time="2025-02-24T16:51:13.227019" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 800, 'width': 1200}}</msg>
+<arg>viewport={'width': 1200, 'height': 800}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2025-02-24T16:51:13.214708" elapsed="0.012401"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-02-24T16:51:15.385403" level="INFO">Successfully initialized new page object and opened url: https://front.serverest.dev/</msg>
+<arg>${SITE_SERVE_REST}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-02-24T16:51:13.227251" elapsed="2.158355"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-02-24T16:51:20.387179" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-02-24T16:51:15.385740" elapsed="5.001872"/>
+</kw>
+<status status="PASS" start="2025-02-24T16:51:11.417019" elapsed="8.970856"/>
+</kw>
+<status status="PASS" start="2025-02-24T16:51:11.416682" elapsed="8.971774"/>
+</test>
+<status status="PASS" start="2025-02-24T16:51:11.350181" elapsed="9.108771"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Serve-Teste-Front">Serve-Teste-Front</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

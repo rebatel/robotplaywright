@@ -1,0 +1,36 @@
+{"level":30,"time":"2025-02-24T19:51:11.654Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"Listening on 57801"}
+(node:82452) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-02-24T19:51:12.682Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-02-24T19:51:13.211Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
+{"level":30,"time":"2025-02-24T19:51:13.212Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-02-24T19:51:13.211Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-02-24T19:51:13.219Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-02-24T19:51:13.219Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":800,\"width\":1200}}"}
+{"level":30,"time":"2025-02-24T19:51:13.219Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-02-24T19:51:13.219Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"Trace file: "}
+{"level":30,"time":"2025-02-24T19:51:13.225Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"Changed active context"}
+{"level":30,"time":"2025-02-24T19:51:13.225Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"End of node method newContext"}
+{"level":30,"time":"2025-02-24T19:51:13.228Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-02-24T19:51:13.228Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-02-24T19:51:13.616Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"Video path: undefined"}
+{"level":30,"time":"2025-02-24T19:51:13.616Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"Changed active page"}
+{"level":30,"time":"2025-02-24T19:51:15.384Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"End of node method newPage"}
+{"level":30,"time":"2025-02-24T19:51:20.398Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-02-24T19:51:20.403Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-02-24T19:51:20.405Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-02-24T19:51:20.407Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-02-24T19:51:20.409Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-02-24T19:51:20.411Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-02-24T19:51:20.413Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-02-24T19:51:20.414Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-02-24T19:51:20.416Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"Changed active context"}
+{"level":30,"time":"2025-02-24T19:51:20.416Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"Changing current active page: page=5a80878a-9618-4874-9473-0a235dbc769c"}
+{"level":30,"time":"2025-02-24T19:51:20.416Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"Changed active page"}
+{"level":30,"time":"2025-02-24T19:51:20.420Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-02-24T19:51:20.442Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"Removed page=7f266676-5a6b-4ddc-9571-74667f51086b from context=5698fce7-34e2-45fc-9618-513f45b38af6 page stack"}
+{"level":30,"time":"2025-02-24T19:51:20.457Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-02-24T19:51:20.461Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-02-24T19:51:20.461Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-02-24T19:51:22.487Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-02-24T19:51:22.650Z","pid":82452,"hostname":"Renatos-MacBook-Pro.local","msg":"End of node method closeAllBrowsers"}
